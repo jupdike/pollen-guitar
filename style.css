@@ -5,16 +5,16 @@ font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img {
-  width: 5em;
+  width: 4.5em;
   height: auto;
 }
 
 table, th, td {
 border-collapse: collapse;
-border: 1px solid #ddd;
+border: none; /*1px solid #ddd; */
 }
 td {
-padding: 0.2em;
+padding: 0.05em;
 padding-bottom: 1em;
 text-align: center;
 }
