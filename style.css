@@ -4,12 +4,19 @@ padding: 0;
 font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img {
+  width: 5em;
+  height: auto;
+}
+
 table, th, td {
 border-collapse: collapse;
 border: 1px solid #ddd;
 }
 td {
 padding: 0.2em;
+padding-bottom: 1em;
+text-align: center;
 }
 body {
 background: #f6f6f6;

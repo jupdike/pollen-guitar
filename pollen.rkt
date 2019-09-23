@@ -24,7 +24,7 @@
 
 (define (chordify name x)
   (let* [(fretstr (string-join (map (λ(y) (format "~a" y)) x) ","))
-        (full (string-append "http://www.updike.org/harmony/frets.cgi?"
+        (full (string-append "https://harmoniousapp.net/eadgbe/"
                              fretstr))]
     (list 'p (img full) '(br) name)  ) )
 
