@@ -27,9 +27,13 @@
         (full (string-append "https://harmoniousapp.net/eadgbe/"
                              fretstr))]
     (list 'p (img full) '(br) name)  ) )
-
 (define empty-chord (chordify "" '()))
 (define _ empty-chord)
+
+(define (say word)
+  (list 'p word '(br) " " '(br) " " '(br) " " '(br) " ") )
+(define (lyr str)
+  (map say (string-split str)))
 
 (define (song . x)
  `(table ,@(map (λ(row)
