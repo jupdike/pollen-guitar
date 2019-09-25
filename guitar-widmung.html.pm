@@ -1,6 +1,7 @@
 #lang pollen
 
 
+◊chord[G#min7b5 (frets 5 x 5 5 4 x)]
 ◊chord[Ab       (frets x 0 2 2 2 0)]
 ◊chord[Ab7      (frets x 0 2 0 2 0)]
 ◊chord[Ab7/Eb   (frets 0 0 2 0 2 3)]
@@ -14,15 +15,21 @@
 ◊chord[Cmin7no5 (frets x 4 x 6 5 7)]
 ◊chord[Db       (frets x x 0 2 3 2)]
 ◊chord[Dbm      (frets x x 0 2 3 1)]
+◊chord[Ddim7    (frets x 6 4 5 4 5)]
 ◊chord[Eb5      (frets 0 2 2 x 0 0)]
 ◊chord[Eb7      (frets 0 2 0 1 0 0)]
 ◊chord[Eb7sus4  (frets 0 2 0 2 0 0)]
 ◊chord[Eb7b5no3 (frets 0 1 0 3 3 0)]
 ◊chord[Ebsus4   (frets 0 2 2 2 0 0)]
+◊chord[E        (frets 1 3 3 2 1 1)]
+◊chord[E/B      (frets x 3 3 2 1 1)]
+◊chord[E7       (frets 1 3 1 2 1 1)]
+◊chord[A/E      (frets 1 1 3 3 3 1)]
 ◊chord[F7/Eb    (frets 0 4 2 3 2 2)]
 ◊chord[F7/A     (frets x 1 2 3 2 2)]
 ◊chord[F/A      (frets x 1 4 x 2 2)]
 ◊chord[F9/G     (frets 4 4 2 3 2 2)]
+◊chord[F#min7   (frets 3 5 3 3 3 3)]
 ◊chord[Gb7      (frets 3 5 3 4 3 3)]
 
 ◊; played as B7sus4+3, but down a half-step = Bb7sus4+3
@@ -38,7 +45,7 @@
  ◊row[Ab  _ _ _   _ _           Db _ _ Gb7 _ _]
  ◊lyr{Herz _ _ _ du meine       Wonn', _ _ O du mein} ; ' annoying syntax highlight problem
  
- ◊row[Bbm _ _  _ Db  _          Ab _ _ _   Eb7   _]
+ ◊row[Bbm _ _  _ Dbm _          Ab _ _ _   Eb7   _]
  ◊lyr{Schmerz, _ _ _ du meine   Welt, _ _ in der ich}
 
  ◊row[_ _ Ab _ Ab7 _            Db _ _ _ Ab7/Eb _ ]
@@ -50,16 +57,16 @@
  ◊row[Ab _ _ _ _ Dbm            Ab _ Ebsus4 _ _ _ ]
  ◊lyr{ab ich e- _ _ wig         mein- nen Kum- _ _ mer}
 
- ◊row[Ab _ _ _ _ _              _ _ _ _ _ _ ]
+ ◊row[Ab _ _ _ _ _              E _ _ _ E7 _ ]
  ◊lyr{gab. _ _ _ _ _            *E:*_Du _ _ _ bist die}
 
- ◊row[_ _ _ _ _ _               _ _ _ _ _ _ ]
+ ◊row[A/E _ _ _ E _             F#min7 _ _ _ _ _ ]
  ◊lyr{Ruh', _ _ _ du _          bist _ _ _ _ der} ; ' annoying syntax highlight problem
 
- ◊row[_ _ _ _ _ _               _ _ _ _ _ _ ]
- ◊lyr{Frie- _ den#, _ _ _       du _ _ _ vist vom}
+ ◊row[E _ E/B _ _ _             E _ G#min7b5 _ Ddim7 _ ]
+ ◊lyr{Frie- _ den#, _ _ _       du _ _ _ bist vom}
 
- ◊row[_ _ _ _ _ _               _ _ _ _ _ _ ]
+ ◊row[F#min7 _ _ _ _ _          _ _ _ _ _ _ ]
  ◊lyr{Him- _ _ _ mel _          mir _ _ _ _ _ be-}
 
  ◊row[_ _ _ _ _ _               _ _ _ _ _ _ ]
