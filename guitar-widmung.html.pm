@@ -36,7 +36,9 @@
 
 ◊title{Widmung by Robert Schumann}
 
-◊desc{An attempt at an arrangement for guitar. Original key of Ab, tune guitar to Eb standard tuning (every string down a semitone). Capo fourth, fifth, sixth, or seventh fret to play in a different key for baritone vocal part. Original key of Ab has low note of B (see "#"). Down 5 semitones (Key of Eb) is low note of Gb, down six (Key of D) is low note of F.}
+◊heading{arranged for guitar by Jared Updike}
+
+◊desc{Original key of Ab, tune guitar to Eb standard tuning (every string down a semitone). Capo fourth, fifth, sixth, or seventh fret to play in a different key for baritone vocal part. Original key of Ab has low note of B (see "#"). Down 5 semitones (Key of Eb) is low note of Gb, down six (Key of D) is low note of F.}
 
 ◊song[
  ◊row[Ab  _ _ _   _ _           Ab _ _ _ _ _]

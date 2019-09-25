@@ -31,7 +31,7 @@
 (define _ empty-chord)
 
 (define (say word)
-  (list 'p word '(br) " " '(br) " " '(br) " " '(br) " ") )
+  (list 'p word) )
 (define (lyr str)
   (map say (string-split str)))
 
